@@ -1,0 +1,61 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background: 
+		linear-gradient(rgba(34, 163, 8, 0.7), rgba(8, 11, 163, 0.7)),
+		url("images/bg2.jpg");
+	margin: 0px;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mytext {
+	color: white;
+	font-style: italic;
+	font-size: 150%;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.github {
+  background: #a4c639;
+  color: white;
+}
+
+.instagram {
+  background: #ff5700;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
